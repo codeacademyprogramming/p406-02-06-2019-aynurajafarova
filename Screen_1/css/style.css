@@ -1,0 +1,34 @@
+body{
+    font-family: "Google Sans", Roboto, arial, sans-serif;
+}
+.general-information{
+    width: 50%;
+    margin: 100px 120px;
+    line-height: 1.7;
+}
+.your-profession{
+    font-size: 20px;
+    width: 55%;
+}
+.about-yourself{
+    width: 95%;
+    color:  #6F6F79;
+}
+.about-yourself, .contact-addresses{
+    letter-spacing: 0.3px;
+}
+.mail-address, .phone-number{
+    color:red;
+    margin-right: 10px;
+}
+.see-my-work-btn{
+    background-color: black;
+    border-color: transparent;
+    border-radius: 3px;
+    color: white;
+    padding: 13px 35px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+}

@@ -1,0 +1,62 @@
+body{
+    background: #4568DC; 
+    background: -webkit-linear-gradient(to right,#4568DC, #B06AB3);
+    background: linear-gradient(to right,#4568DC, rgb(223, 77, 186));
+    font-family: 'Noto Sans HK', sans-serif;
+    color: white;
+    letter-spacing: 0.8px;
+}
+.heading{
+    font-size: 2.5em;
+}
+.general{
+    width: 91%;
+    font-size:0.8em;
+    margin: 65px;
+}
+.general-info{
+    margin-top:-15px;
+    margin-bottom: 40px;
+}
+.address, .phone, .email, .fax{
+    margin-top: 20px;
+}
+.phone>span{
+    margin-left: 6px;
+    letter-spacing: 2px;
+}
+.google-map{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.fa-map-marker{
+    margin-right: 5px;
+    margin-top: 30px;
+}
+.get-in-touch{
+    font-size: 2em;
+    margin-top:45px;
+}
+.get-in-touch-form input{
+    width: 97%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.get-in-touch-form textarea{
+    width: 98%;
+    height: 90px;
+    box-sizing: border-box;
+}
+.get-in-touch-form input, .get-in-touch-form textarea, .send-message-btn{
+    border-color: transparent;
+    border-radius: 4px;
+}
+.send-message-btn{
+    padding: 9px 20px;
+    color: white;
+    background-color: black;
+    margin-top: 12px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
